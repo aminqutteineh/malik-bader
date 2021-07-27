@@ -1,0 +1,23 @@
+@use '../util/' as *;
+
+.header {
+
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  &__title {
+    font-size: 5rem;
+    font-family: 'Blocus';
+    flex-grow: 1;
+
+    @include breakpoint-down(small) {
+      font-size: 3rem;
+    }
+
+  }
+}

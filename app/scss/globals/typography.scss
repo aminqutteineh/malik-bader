@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Blocus";
+  src: url("/fonts/blocuswebfont.woff") format("woff"), url("/fonts/blocuswebfont.ttf") format("truetype"), url("/fonts/blocuswebfont.eot") format("eot");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: var(--black);
+}

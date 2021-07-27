@@ -1,0 +1,26 @@
+@use '../util/' as *;
+
+.marquees {
+    display: flex;
+    overflow: hidden;
+  
+    &:hover {
+      animation-play-state: paused;
+    }
+  
+    div {
+      display: flex;
+      flex: 1 0 auto;
+      animation: marquees 30s linear infinite;
+      will-change: transform;
+    }
+  }
+  
+  @keyframes marquees {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }

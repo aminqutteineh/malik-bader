@@ -1,0 +1,32 @@
+@use '../util/' as *;
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: 1.35rem;
+  line-height: 1.1;
+
+  @include breakpoint-down(small) {
+    font-size: 1.15rem;
+  }
+
+}
+
+.main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.spotlight {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: radial-gradient(circle, transparent 150px, rgba(0, 0, 0, 0.9) 200px);
+
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+
+}

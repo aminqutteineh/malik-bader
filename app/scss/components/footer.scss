@@ -3,6 +3,8 @@
 .marquees {
     display: flex;
     overflow: hidden;
+    font-size: 2rem;
+    padding: 1rem;
   
     &:hover {
       animation-play-state: paused;

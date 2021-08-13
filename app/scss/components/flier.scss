@@ -4,13 +4,13 @@
     pointer-events: none;
   
     img {
-      width: 300px;
+      width: 400px;
     }
   }
   
   .flier > * {
     /* Adjust animation duration to change the element’s speed */
-    animation: fly 50s linear infinite;
+    animation: fly 75s linear infinite;
     pointer-events: none !important;
     top: 0;
     left: 0;

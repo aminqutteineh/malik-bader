@@ -2,21 +2,44 @@
 
 .site {
   display: flex;
-  min-height: 100vh;
   flex-direction: column;
+  min-height: 100vh;
   font-size: 1.35rem;
-  line-height: 1.1;
+  line-height: 1.2;
+  color: var(--white);
 
   @include breakpoint-down(small) {
     font-size: 1.15rem;
   }
-
 }
 
 .main {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 55vw;
+  margin: 0 auto;
+
+  &__contact {
+    text-align: center;
+  }
+
+  &__info {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+  }
+}
+
+video {
+  display: block;
+  margin: auto;
+}
+
+#myVideo {
+  position: fixed;
+  width: 100%;
 }
 
 .spotlight {
@@ -28,5 +51,4 @@
   @include breakpoint-down(medium) {
     display: none;
   }
-
 }

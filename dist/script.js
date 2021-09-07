@@ -1,2 +1,2 @@
-"use strict";console.log("Cash Only"),window.addEventListener("DOMContentLoaded",(function(){var n=document.querySelector(".spotlight"),e="transparent 150px, rgba(0, 0, 0, 0.9) 200px)";window.addEventListener("mousemove",(function(t){return function(t){n.style.backgroundImage="radial-gradient(circle at ".concat(t.pageX/window.innerWidth*100,"% ").concat(t.pageY/window.innerHeight*100,"%, ").concat(e)}(t)}))}));
+"use strict";console.log("Cash Only"),$(".single-item").slick({autoplay:!0,autoplaySpeed:5e3,infinite:!0,speed:1e3,fade:!0,draggable:!1,arrows:!1});
 //# sourceMappingURL=script.js.map

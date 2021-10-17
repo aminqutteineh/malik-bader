@@ -1,21 +1,7 @@
-@font-face {
-  font-family: "Broken Planewing";
-  src: url("/fonts/broken_planew.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-}
-
 h1,
 h2,
 h3 {
   margin: 0 0 1rem 0;
-}
-
-h1 {
-  font-family: var(--font-brokenplane);
-  font-size: 8.5rem;
-  font-weight: 400;
 }
 
 a,

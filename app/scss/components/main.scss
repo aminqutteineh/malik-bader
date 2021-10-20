@@ -32,6 +32,13 @@
   }
 
   &__menu {
+
+    ul {
+      @include breakpoint-down(small) {
+        text-align: center;
+      }
+    }
+
     li {
       @include breakpoint-down(small) {
         display: inline;

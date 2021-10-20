@@ -3,7 +3,7 @@
 .nav {
   flex-basis: 20rem;
   flex-grow: 1;
-  padding: 2rem;
+  padding: 3rem 0 3rem 3rem;
 
   @include breakpoint(large) {
     position: sticky;
@@ -56,7 +56,7 @@
   flex-basis: 0;
   flex-grow: 999;
   min-width: 50%;
-  padding: 2rem;
+  padding: 3rem 3rem 3rem 0;
 
   @include breakpoint-down(small) {
     padding: 1rem;
@@ -64,10 +64,10 @@
 
   &__video {
     margin-bottom: 0.75rem;
+  }
 
-    p {
-      margin-top: 4rem;
-    }
+  &__info {
+    padding: 1rem 0;
   }
 
   a {

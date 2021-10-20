@@ -18,11 +18,27 @@
   &__logo {
     margin-bottom: 3rem;
 
+    @include breakpoint-down(small) {
+      margin-bottom: 1rem;
+    }
+
     img {
       width: 250px;
 
       @include breakpoint-down(small) {
         width: 100%;
+      }
+    }
+  }
+
+  &__menu {
+    li {
+      @include breakpoint-down(small) {
+        display: inline;
+        
+        &:not(:last-child) {
+          margin-right: 1rem;
+        }
       }
     }
   }

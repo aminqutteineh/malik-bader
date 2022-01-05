@@ -19,11 +19,12 @@
     margin-bottom: 3rem;
 
     @include breakpoint-down(small) {
-      margin-bottom: 1rem;
+      margin: 0 auto;
+      width: 55%;
     }
 
     img {
-      width: 225px;
+      width: 170px;
 
       @include breakpoint-down(small) {
         width: 100%;
@@ -77,6 +78,12 @@
     padding: 1rem 0;
   }
 
+  &__contact {
+    @include breakpoint(medium) {
+      margin-top: 7.75rem;
+    }
+  }
+
   a {
     transition: 0.3s ease-in-out;
   }
@@ -84,4 +91,12 @@
   a:hover {
     opacity: 0.8;
   }
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

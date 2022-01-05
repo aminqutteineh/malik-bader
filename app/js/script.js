@@ -2,9 +2,9 @@ console.log("Cash Only");
 
 $(".single-item").slick({
   autoplay: true,
-  autoplaySpeed: 7000,
+  autoplaySpeed: 3000,
   infinite: true,
-  speed: 1000,
+  speed: 2000,
   fade: true,
   draggable: false,
   arrows: false,

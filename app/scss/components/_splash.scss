@@ -83,11 +83,14 @@ img {
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
   z-index: 2;
-  margin-left: -0.5rem;
   width: 230px;
 
   a:hover {
     opacity: 1;
+  }
+
+  @include breakpoint-down(small) {
+    width: 190px;
   }
 }
 
